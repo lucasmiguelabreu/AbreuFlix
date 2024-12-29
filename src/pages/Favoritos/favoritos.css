@@ -37,3 +37,55 @@
     color: #116feb;
     margin-right: 14px;
 }
+
+.meus-filmes div button {
+    font-size: 10px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.meus-filmes div button:hover {
+    background-color: #116feb;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .meus-filmes ul {
+        width: 100%; /* Adapta para preencher a largura da tela */
+        padding: 0 16px; /* Adiciona espaço lateral */
+    }
+
+    .meus-filmes ul li {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+
+    .meus-filmes div a {
+        margin-right: 0; /* Remove o espaço lateral */
+        margin-bottom: 8px; /* Adiciona espaço inferior */
+    }
+}
+
+.meus-filmes ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.meus-filmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes div a {
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+}
